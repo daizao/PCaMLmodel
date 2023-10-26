@@ -1,0 +1,40 @@
+Package: PCaMLmodel
+Title: Calculate PCa Sample BCR Score
+Version: 1.0
+Authors@R: 
+    c(
+      person(given = "Zao",
+             family = "Dai",
+             role = c("aut","cre"),
+             email = "daizao@ntu.edu.cn"),
+      person("Guanyun","Wei",role = "aut")
+    )
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+biocViews:
+Imports: 
+    gbm,
+    glmnet,
+    mixOmics,
+    openxlsx,
+    plsRcox,
+    plyr,
+    randomForestSRC,
+    seqinr,
+    superpc,
+    survcomp,
+    survival,
+    CoxBoost,
+    survivalsvm,
+    BART,
+    snowfall,
+    ComplexHeatmap,
+    RColorBrewer
+Remotes:
+    binderh/CoxBoost
