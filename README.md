@@ -1,5 +1,5 @@
-*The BCR model of Prostate Cancer*
-## Sample 1
+## **The BCR model of Prostate Cancer**
+### Sample 1
 ```R
 #test data
 
@@ -9,7 +9,7 @@ scores
 
 ```
 
-## Sample 2
+### Sample 2
 ```R
 #if your data was input as data.frame
 
