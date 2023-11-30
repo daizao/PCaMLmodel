@@ -1,12 +1,12 @@
 *The BCR model based on Fatty acid metabolism and stemness genelists*
 ## Sample 1
 ```R
-	scores <- fat_stemness_BCR_Score(test_input_data)
-	scores
+scores <- fat_stemness_BCR_Score(test_input_data)
+scores
 ```
 
 ## Sample 2
-```
+```R
 #if your data was input as data.frame
 
 library(PCaMLmodel)
