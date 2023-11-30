@@ -1,4 +1,4 @@
-*The BCR model based on Fatty acid metabolism and stemness genelists*
+*The BCR model of Prostate Cancer*
 ## Sample 1
 ```R
 #test data
