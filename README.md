@@ -1,8 +1,12 @@
 *The BCR model based on Fatty acid metabolism and stemness genelists*
 ## Sample 1
 ```R
+#test data
+
+# fat_stemness_BCR_Score model:
 scores <- fat_stemness_BCR_Score(test_input_data)
 scores
+
 ```
 
 ## Sample 2
@@ -22,8 +26,11 @@ library(survival)
 
 data <- fread("test.txt",header = T,sep = '\t') %>%
       column_to_rownames(var = "sampleid")
+
+# fat_stemness_BCR_Score model:
 result <- fat_stemness_BCR_Score(as.matrix(data)) %>%
 	as.data.frame()
+
 colnames(result) <- "score"
 result <- rownames_to_column(result,var = "sampleid")
 result
