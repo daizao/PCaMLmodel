@@ -30,4 +30,4 @@ result <- rownames_to_column(result,var = "sampleid")
 result
 ```
 * Website: 
-	<a href="www.dzwgylab.com/PCaMLmodel" title="PCaMLmodel Website">PCaMLmodel</a>
+	[PCaMLmodel](http://www.dzwgylab.com/PCaMLmodel)
