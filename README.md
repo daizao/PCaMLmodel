@@ -23,11 +23,11 @@ library(survival)
 data <- fread("test.txt",header = input$header,sep = '\t')
 data <- out_dz() %>%
       column_to_rownames(var = "sampleid")
-result <- fat_stemness_BCR_Score(test_input_data) %>%
+result <- fat_stemness_BCR_Score(_data) %>%
 	as.data.frame()
 colnames(result) <- "score"
 result <- rownames_to_column(result,var = "sampleid")
 result
 ```
 * Website: 
-	[PCaMLmodel website](http://dzwgylab.com/PCaMLmodel)
+	[PCaMLmodel_website](http://dzwgylab.com/PCaMLmodel)
