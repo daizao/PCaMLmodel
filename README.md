@@ -29,5 +29,5 @@ colnames(result) <- "score"
 result <- rownames_to_column(result,var = "sampleid")
 result
 ```
-* Website: *
+* Website: 
 	[PCaMLmodel website](http://dzwgylab.com/PCaMLmodel)
